@@ -3,8 +3,8 @@ from email.message import EmailMessage
 #Protocolo simple de transferencia de correo
 import smtplib
 
-emisor_email ='diegoma.v2004@gmail.com'
-pasword_email ='snufgbcuxaigkymef'
+emisor_email = input('Escribe tu email:')
+pasword_email = input('Escribe tu token generado en email:')
 #en el receptor pondremos una lista de correos
 receptor_email =[]
 print("para separar los emails use un espacio:")
